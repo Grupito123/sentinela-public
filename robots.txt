@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Las secciones privadas no aportan a los buscadores y requieren sesión.
+Disallow: /admin
+Disallow: /qr
+Disallow: /qr/marcar
+Disallow: /login
+Disallow: /registro
+
+# El plugin `sentinel-seo` (vite.config.ts) reemplaza el dominio de ejemplo
+# por `VITE_SITE_URL` al construir. robots.txt exige una URL absoluta aquí.
+Sitemap: https://grupito123.github.io/sentinela-public/sitemap.xml

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap de las páginas públicas. Las rutas privadas (/admin, /qr, /login,
+  /registro) quedan fuera a propósito.
+
+  El dominio de ejemplo lo reemplaza el plugin `sentinel-seo`
+  (vite.config.ts) por `VITE_SITE_URL` al construir, igual que en robots.txt.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://grupito123.github.io/sentinela-public/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://grupito123.github.io/sentinela-public/especialidades</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grupito123.github.io/sentinela-public/inscripcion</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grupito123.github.io/sentinela-public/contacto</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
